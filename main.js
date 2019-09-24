@@ -1,6 +1,6 @@
 const score = document.querySelector('score'),
-	start = document.querySelector('start'),
-	gameArea = document.querySelector('gameArea'),
+	start = document.querySelector('.start'),
+	gameArea = document.querySelector('.gameArea'),
 	car = document.createElement('div');
 
 car.classList.add('car');
@@ -38,10 +38,10 @@ function playGame() {
 
 function startRun(event) {
 	event.preventDefault();
-	keys[envent.key] = true;
+	keys[event.key] = true;
 }
 
 function stopRun(event) {
 	event.preventDefault();
-	keys[envent.key] = false;
+	keys[event.key] = false;
 }
