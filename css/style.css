@@ -51,7 +51,7 @@ table {
 	display: none;
 }
 
-.car {
+.car, .enemy {
 	width: 50px;
 	height: 100px;
 	background: transparent url('../images/red-car.png') center / cover no-repeat;
